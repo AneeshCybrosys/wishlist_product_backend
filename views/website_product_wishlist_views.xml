@@ -11,7 +11,6 @@
                 </tree>
             </field>
         </record>
-
         <record id="view_product_wishlist_search" model="ir.ui.view">
             <field name="name">product.wishlist.search</field>
             <field name="model">product.wishlist</field>
@@ -25,7 +24,6 @@
                 </search>
             </field>
         </record>
-
         <record id="action_product_wishlist" model="ir.actions.act_window">
             <field name="name">Wishlist Products</field>
             <field name="type">ir.actions.act_window</field>
@@ -33,7 +31,6 @@
             <field name="view_mode">tree,search</field>
             <field name="search_view_id" ref="view_product_wishlist_search"/>
         </record>
-
         <menuitem id="product_wishlist_views" name="Wishlist Products"
                   action="action_product_wishlist"
                   parent="website.menu_reporting" sequence="35"/>
